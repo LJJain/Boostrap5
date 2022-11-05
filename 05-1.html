@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style type="text/css">
+        .txt{
+            background-color: #ccc;
+            padding: 20px;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .txt-block{
+                margin-top: -100px;
+            }
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>格線距離控制</h1>
+    <!-- offset 控制左右間距 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="item">
+                    <img src="https://picsum.photos/300/200?random=10" alt="" class="w-100">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus neque repudiandae et eveniet, ducimus repellendus non doloribus quia odit!</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 offset-md-1">
+                <div class="item">
+                    <img src="https://picsum.photos/300/200?random=10" alt="" class="w-100">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus neque repudiandae et eveniet, ducimus repellendus non doloribus quia odit!</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 offset-md-1">
+                <div class="item">
+                    <img src="https://picsum.photos/300/200?random=10" alt="" class="w-100">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus neque repudiandae et eveniet, ducimus repellendus non doloribus quia odit!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 交錯設計 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <div class="pic">
+                    <img src="https://picsum.photos/300/200?random=10" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col-12 col-md-7 offset-md-5 txt-block">
+                <div class="txt">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe accusamus sit molestiae quis corrupti iure, deleniti fugiat aperiam consequatur.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-7 mt-5 offset-5">
+                <div class="pic">
+                    <img src="https://picsum.photos/300/200?random=10" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col-12 col-md-7 txt-block">
+                <div class="txt">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe accusamus sit molestiae quis corrupti iure, deleniti fugiat aperiam consequatur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
