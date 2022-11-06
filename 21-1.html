@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .demo{
+            width: 200px;
+            height: 200px;
+        }
+
+        .pic{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .pic img{
+            object-fit: cover;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>共用項目overflow</h1>
+    <h2>長文字應用</h2>
+    <div class="demo bg-info overflow-auto">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa minima impedit sunt veritatis. Officia illum dolores corrupti iste rerum perspiciatis assumenda deserunt cupiditate omnis nostrum mollitia ex beatae atque optio laboriosam possimus tenetur fugit laborum ab, doloremque voluptates? Expedita enim debitis exercitationem sint nam minima, distinctio esse hic facilis.
+        </p>
+    </div>
+
+    <h2>圖片應用</h2>
+    <div class="pic overflow-hidden">
+        <img src="https://picsum.photos/200/300?random=10" alt="" class="w-100 h-100">
+    </div>
+
+    <!-- <div class="overflow-auto">...</div>
+    <div class="overflow-hidden">超出範圍隱藏</div>
+    <div class="overflow-visible">...</div>
+    <div class="overflow-scroll">超出範圍卷軸</div> -->
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
