@@ -50,6 +50,17 @@
 
 > 21-1:共用項目overflow
 
+> 22-1:共用項目border(邊框線)
+
+> 23-1:按鈕組件
+
+> 24-1:表單組件入門
+
+> 25-1:選取組件與檔案組件
+
+> 26-1:輸入群組組件
+
+> 27-1:Checkbox 與 Radio 組件
 
 ## 相關連結
 
@@ -59,7 +70,11 @@
 
 > Boostrap 5 文檔
 
-- https://bootstrap5.hexschool.com/
+- (原文)
+    - https://getbootstrap.com/docs/5.2/getting-started/introduction/
+
+- (中文)
+    - https://bootstrap5.hexschool.com/
 
 > 假圖連結
 
